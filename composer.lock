@@ -200,7 +200,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zaxbux/b2-sdk-php.git",
-                "reference": "c215c3713b835625234ba369dbeebced6bbe4dbf"
+                "reference": "3c4196668f30bd65d281a7399c3e26c604c348fd"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.1",
@@ -240,7 +240,7 @@
                 "filesystem",
                 "storage"
             ],
-            "time": "2019-03-25T02:32:25+00:00"
+            "time": "2019-03-25T04:31:03+00:00"
         },
         {
             "name": "league/flysystem",

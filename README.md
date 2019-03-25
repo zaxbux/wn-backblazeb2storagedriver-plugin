@@ -1,4 +1,4 @@
-# BackBlaze B2 Storage Driver
+# Backblaze B2 Storage Driver
 
 This October CMS plugin allows you to use the Backblaze B2 cloud storage service as a filesystem on your installation.
 
