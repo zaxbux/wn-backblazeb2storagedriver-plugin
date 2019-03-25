@@ -1,0 +1,36 @@
+{
+    "name": "zaxbux/oc-backblazeb2storagedriver-plugin",
+    "type": "october-plugin",
+    "description": "Provides a file system storage driver for Backblaze B2.",
+    "homepage": "https://github.com/zaxbux/oc-backblazeb2storagedriver-plugin",
+    "keywords": [
+        "october",
+        "octobercms",
+        "backblaze",
+        "b2",
+        "filesystem",
+        "driver"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zachary Schneider",
+            "email": "hello@zacharyschneider.ca"
+        }
+		],
+		"minimum-stability": "dev",
+		"repositories": [
+			{
+				"url": "https://github.com/zaxbux/b2-sdk-php.git",
+				"type": "git"
+			},
+			{
+				"url": "https://github.com/zaxbux/flysystem-backblaze-b2.git",
+				"type": "git"
+			}
+		],
+    "require": {
+				"ilab/b2-sdk-php": "dev-fix-metadata as 1.4.1",
+        "zaxbux/flysystem-backblaze-b2": "master"
+    }
+}

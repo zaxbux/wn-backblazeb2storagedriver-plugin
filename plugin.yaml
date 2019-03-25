@@ -1,0 +1,6 @@
+plugin:
+    name: 'zaxbux.backblazeb2storagedriver::lang.plugin.name'
+    description: 'zaxbux.backblazeb2storagedriver::lang.plugin.description'
+    author: 'Zachary Schneider'
+    icon: oc-icon-database
+    homepage: 'https://www.zacharyschneider.ca/'
