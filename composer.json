@@ -17,20 +17,9 @@
             "name": "Zachary Schneider",
             "email": "hello@zacharyschneider.ca"
         }
-		],
-		"minimum-stability": "dev",
-		"repositories": [
-			{
-				"url": "https://github.com/zaxbux/b2-sdk-php.git",
-				"type": "git"
-			},
-			{
-				"url": "https://github.com/zaxbux/flysystem-backblaze-b2.git",
-				"type": "git"
-			}
-		],
+	],
+	"minimum-stability": "dev",
     "require": {
-				"ilab/b2-sdk-php": "dev-fix-metadata as 1.4.1",
-        "zaxbux/flysystem-backblaze-b2": "master"
+        "zaxbux/flysystem-backblaze-b2": "^1.0"
     }
 }

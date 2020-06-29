@@ -1,7 +1,7 @@
 <?php namespace Zaxbux\BackblazeB2StorageDriver;
 
 use Storage;
-use ILAB\B2\Client;
+use Zaxbux\B2\Client;
 use League\Flysystem\Filesystem;
 use Zaxbux\Flysystem\BackblazeB2Adapter;
 use Zaxbux\BackblazeB2StorageDriver\Classes\OctoberB2AuthCache;
@@ -11,7 +11,7 @@ use System\Classes\PluginBase;
 /**
  * Plugin class for Backblaze B2 Storage Driver
  * 
- * @author zaxbux
+ * @author Zachary Schneider <hello@zacharyschneider.ca>
  */
 class Plugin extends PluginBase {
 	/**
@@ -25,5 +25,5 @@ class Plugin extends PluginBase {
 			$adaptor = new BackblazeB2Adapter($client, $config['bucketName']);
 			return new Filesystem($adaptor);
 		});
-  }
+	}
 }
