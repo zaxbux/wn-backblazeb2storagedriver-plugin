@@ -1,7 +1,7 @@
 <?php namespace Zaxbux\BackblazeB2StorageDriver\Classes;
 
 use Cache;
-use ILAB\B2\AuthCacheInterface;
+use Zaxbux\B2\AuthCacheInterface;
 
 /**
  * October CMS Cache adapter for the B2 SDK Client
