@@ -1,6 +1,6 @@
 plugin:
-    name: 'zaxbux.backblazeb2storagedriver::lang.plugin.name'
+    name:        'zaxbux.backblazeb2storagedriver::lang.plugin.name'
     description: 'zaxbux.backblazeb2storagedriver::lang.plugin.description'
-    author: 'Zachary Schneider'
-    icon: icon-database
-    homepage: 'https://github.com/zaxbux/wn-backblazeb2storagedriver-plugin'
+    author:      'Zachary Schneider'
+    icon:        'icon-database'
+    homepage:    'https://github.com/zaxbux/wn-backblazeb2storagedriver-plugin'
