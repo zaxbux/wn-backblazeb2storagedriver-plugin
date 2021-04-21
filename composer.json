@@ -1,11 +1,11 @@
 {
     "name": "zaxbux/oc-backblazeb2storagedriver-plugin",
-    "type": "october-plugin",
+    "type": "winter-plugin",
     "description": "Provides a file system storage driver for Backblaze B2.",
-    "homepage": "https://github.com/zaxbux/oc-backblazeb2storagedriver-plugin",
+    "homepage": "https://github.com/zaxbux/wn-backblazeb2storagedriver-plugin",
     "keywords": [
-        "october",
-        "octobercms",
+        "winter",
+        "wintercms",
         "backblaze",
         "b2",
         "filesystem",

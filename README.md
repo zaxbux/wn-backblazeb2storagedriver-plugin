@@ -1,6 +1,6 @@
 # Backblaze B2 Storage Driver
 
-This October CMS plugin allows you to use the Backblaze B2 cloud storage service as a filesystem on your installation.
+This Winter CMS plugin allows you to use the Backblaze B2 cloud storage service as a filesystem on your installation.
 
 ## Requirements
 
@@ -8,7 +8,7 @@ To use B2 Cloud Storage, you need to have a Backblaze account. You can get an ac
 
 ## Plugin Settings
 
-The plugin is configured in your October CMS `filesystems.php` and `cms.php`.
+The plugin is configured in your Winter CMS `filesystems.php` and `cms.php`.
 
 ### filesystems.php
 Edit your `filesystems.php` to add a disk "backblaze" that uses the `b2` driver:
