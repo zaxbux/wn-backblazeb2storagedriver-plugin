@@ -6,7 +6,7 @@ use Zaxbux\B2\AuthCacheInterface;
 /**
  * Winter CMS Cache adapter for the B2 SDK Client
  */
-class WinterB2AuthCache implements AuthCacheInterface {
+class B2AuthCache implements AuthCacheInterface {
 
 	const CACHE_PREFIX = "b2auth_";
 
@@ -17,7 +17,7 @@ class WinterB2AuthCache implements AuthCacheInterface {
 	 * @return string
 	 */
 	protected static function getCacheKey($key) {
-		return WinterB2AuthCache::CACHE_PREFIX.$key;
+		return B2AuthCache::CACHE_PREFIX.$key;
 	}
 
 	/**
